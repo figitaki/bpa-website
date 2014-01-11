@@ -1,4 +1,33 @@
+@font-face {
+    font-family: "myfont";
+    src: url("../fonts/FiraSans-Regular.woff") format('woff');
+}
+
 body {
+	font-family: myfont;
 	padding-top: 50px;
 	padding-bottom: 40px;
+}
+
+h1, h2, h3 {
+	font-family: myfont;
+}
+
+body p {
+	font-weight: light;
+}
+
+#quotes {
+	background: url('../img/quotes.png') no-repeat;
+	background-size: 100px;
+	font-size: 2em !important;
+}
+
+#quotes p {
+	font-size: 1em;
+}
+
+.solution {
+	text-align: center;
+	padding: 20px 0;
 }
